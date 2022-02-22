@@ -39,11 +39,25 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.content {
+    margin: 2% 5%;
+}
+
+.panelContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw
+}
+
 .panel {
     overflow: hidden;
     width: 100vw;
     max-width: 100%;
     height: 100vh;
+}
+
+.footer {
+    background-color: aqua;
 }
 
 .logo {
@@ -62,4 +76,12 @@ body {
 
 #full-logo {
     animation: fadeIn 1s linear 3s 1 forwards;
+}
+
+#navbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
 }
