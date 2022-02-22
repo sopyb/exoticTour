@@ -64,6 +64,7 @@ body {
     position: absolute;
     height: 40vh;
     opacity: 0%;
+
 }
 
 #start {
@@ -71,10 +72,16 @@ body {
 }
 
 #logo-drawonly {
+    -webkit-animation: zoomOutLogo 3s linear 0s 1 forwards;
+    -moz-animation: zoomOutLogo 3s linear 0s 1 forwards;
+    -o-animation: zoomOutLogo 3s linear 0s 1 forwards;
     animation: zoomOutLogo 3s linear 0s 1 forwards;
 }
 
 #full-logo {
+    -webkit-animation: fadeIn 1s linear 3s 1 forwards;
+    -moz-animation: fadeIn 1s linear 3s 1 forwards;
+    -o-animation: fadeIn 1s linear 3s 1 forwards;
     animation: fadeIn 1s linear 3s 1 forwards;
 }
 
