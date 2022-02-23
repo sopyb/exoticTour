@@ -23,11 +23,18 @@ $(document).ready(() =>  {
     }
 
     $('a[onload]').trigger('onload');
+
+    $('#languageSelector').prop("selectedIndex",Object.keys(locales).findIndex(e => e == language))
+
+    $('#languageSelector').change((event) => {
+        changeLang(event.target[event.target.selectedIndex].value)
+        // console.log($(event.target. + " option:selected"))
+    })
 })
 
 function changeLang(locale) {
-    if (["ro-RO", "en-US"].includes(locale)) localStorage.setItem("lang", locale);
-    location.reload()
+    if (Object.keys(locales).includes(locale)) localStorage.setItem("lang", locale);
+    location.reload(false)
 }
 
 function getLocaleString(string) {
