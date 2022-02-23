@@ -13,5 +13,3 @@ $(window).scroll(() => {
         navbar.removeClass("fixToTop");
     }
 })
-
-console.log(navbar)
