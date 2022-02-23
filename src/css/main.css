@@ -68,16 +68,10 @@ body {
 
 }
 
-.fixToTop{
-    position: fixed !important;
-    top:0px;
-    bottom: unset !important;
-}
-
 .navItem {
     height: auto;
     font-size: medium;
-    background-color: aliceblue;
+    background-color: rgb(219, 219, 219);
 
     margin: 0% 0.5%;
     padding: 1% 2%;
@@ -108,7 +102,7 @@ body {
     height: auto;
     padding: 0% 2%;
     bottom: 0px;
-    background-color: aqua;
+    background-color: rgb(200, 205, 235);
 }
 
 #languageSelector {

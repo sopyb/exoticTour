@@ -1,7 +1,9 @@
 $(document).ready(() => {
     $("#start").height(window.innerHeight)
+    $("#navbar").css("bottom", 0)
 
-    $(window).resize((e) => {
+    $(window).resize(() => {
         $("#start").height(window.innerHeight)
+        $("#navbar").css("bottom", 0)
     })
 })

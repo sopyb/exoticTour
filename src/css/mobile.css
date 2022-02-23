@@ -1,6 +1,14 @@
 @media only screen and (max-width: 600px), 
     (hover: none) {
-    .panel {
-        background-color: rgb(20, 141, 101);
+    #navbar {
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .navItem {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 4% 0%;
     }
 }
