@@ -14,7 +14,7 @@ function getPage(anchor) {
 
 async function changePage(page) {
     await window.scrollTo({
-        top: $("#navbar")[0].getBoundingClientRect().top + window.pageYOffset,
+        top: defaultNavbarOffset,
         behavior: "smooth"
     })
 
