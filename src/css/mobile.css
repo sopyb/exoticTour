@@ -5,10 +5,14 @@
         padding: 0%;
     }
 
+    .centered {
+        transform: translate(-50%, -70%);
+    }
+
     .navItem {
         height: auto;
         width: 100%;
         text-align: center;
-        padding: 4% 0%;
+        padding: 2% 0%;
     }
 }

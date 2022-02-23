@@ -1,5 +1,4 @@
-@media screen and (min-width: 601px),
-    (hover:hover) {
+@media screen and (min-width: 601px) {
     .fixToTop{
         position: fixed !important;
         top:0px;
