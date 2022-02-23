@@ -33,7 +33,7 @@ $(document).ready(() =>  {
 
 function changeLang(locale) {
     if (Object.keys(locales).includes(locale)) localStorage.setItem("lang", locale);
-    location.reload(false)
+    $('*[onload]').trigger('onload');
 }
 
 function getLocaleString(string) {
