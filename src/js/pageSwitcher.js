@@ -27,7 +27,7 @@ async function changePage(page) {
     $("#content").load("src/html/" + getPage(page))
 
     var url = location.href.split("#")[0];
-    document.location = url + "#" + page;
+    document.location = url + "#" + (page || "home");
     // history.replaceState({}, '', '/'); 
 
 }
