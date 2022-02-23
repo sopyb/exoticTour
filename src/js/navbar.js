@@ -12,8 +12,6 @@ $(window).scroll(() => {
     } else {
         navbar.removeClass("fixToTop");
     }
-
-    console.log(height)
 })
 
 console.log(navbar)
