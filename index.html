@@ -7,6 +7,7 @@
         <link href="src/css/main.css" rel="stylesheet">
 
         <script src="src/js/lib/jquery-3.6.0.min.js"></script>
+        <script src="src/js/localeManager.js"></script>
         <script src="src/js/pageSwitcher.js"></script>
         <script src="src/js/navbar.js"></script>
     </head>
@@ -18,9 +19,9 @@
                 <img class="centered logo" id="full-logo" src="src/img/logo.png">
 
                 <div id="navbar">
-                    <a class="navItem" onclick="changePage('')">{Home}</a>
-                    <a class="navItem" onclick="changePage('about')">{About Us}</a>
-                    <a class="navItem" onclick="changePage('contact')">{Contact}</a>
+                    <a class="navItem" onload="$(this).text(getLocaleString('home'))" onclick="changePage('')">{Home}</a>
+                    <a class="navItem" onload="$(this).text(getLocaleString('aboutUs'))" onclick="changePage('about')">{About Us}</a>
+                    <a class="navItem" onload="$(this).text(getLocaleString('contact'))" onclick="changePage('contact')">{Contact}</a>
                 </div>
             </div>
     
