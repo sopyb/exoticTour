@@ -70,28 +70,15 @@ body {
 }
 
 .navItem {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-
     height: auto;
     font-size: 16px;
-    /* font-weight: bold; */
+    font-weight: bold;
     background-color: rgb(240, 240, 240);
 
 
     margin: 0% 0.5%;
     padding: 1% 2%;
 }
-
-.navItem:hover {
-    transform: scale(1.2)
-}
-
-/* #start {
-    background-color: blueviolet;
-} */
 
 #logo-drawonly {
     -webkit-animation: zoomOutLogo 3s linear 0s 1 forwards;
@@ -123,7 +110,7 @@ body {
     appearance: none;
     margin-left: auto;
     margin-right: 5%;
-    padding: unset 0%;
+    padding: 0%;
     height: auto;
 }
 

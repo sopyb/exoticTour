@@ -4,4 +4,15 @@
         top:0px;
         bottom: unset !important;
     }
+
+    .navItem {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .navItem:hover {
+        transform: scale(1.2)
+    }
 }
