@@ -6,6 +6,10 @@ $(document).ready(function(){
 
 function getPage(anchor) {
     switch(anchor) {
+        case "about":
+            return "aboutUs.html"
+        case "contact":
+            return "contact.html"
         default:
             return "home.html"
             

@@ -22,14 +22,13 @@ $(document).ready(() =>  {
         localStorage.setItem("lang", "ro-RO");
     }
 
-    $('a[onload]').trigger('onload');
-
     $('#languageSelector').prop("selectedIndex",Object.keys(locales).findIndex(e => e == language))
 
     $('#languageSelector').change((event) => {
         changeLang(event.target[event.target.selectedIndex].value)
-        // console.log($(event.target. + " option:selected"))
     })
+
+    $('*[onload]').trigger('onload');
 })
 
 function changeLang(locale) {
