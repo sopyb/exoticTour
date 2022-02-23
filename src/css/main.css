@@ -2,6 +2,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     max-width: 100%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 @keyframes fadeIn {
@@ -69,12 +70,23 @@ body {
 }
 
 .navItem {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
     height: auto;
-    font-size: medium;
+    font-size: 16px;
+    /* font-weight: bold; */
     background-color: rgb(240, 240, 240);
+
 
     margin: 0% 0.5%;
     padding: 1% 2%;
+}
+
+.navItem:hover {
+    transform: scale(1.2)
 }
 
 /* #start {
@@ -111,7 +123,7 @@ body {
     appearance: none;
     margin-left: auto;
     margin-right: 5%;
-    padding: auto 0%;
+    padding: unset 0%;
     height: auto;
 }
 
