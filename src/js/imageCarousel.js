@@ -1,14 +1,4 @@
-let carouselImages = [];
-
-$.ajax({
-    url: "src/img/carousel",
-    async: false,
-    success: function(data){
-        let formattedData = $(data).find("a:contains(.jpg)").sort(() => (Math.random() > .5) ? 1 : -1)
-
-        new Array(formattedData.length).fill(0).forEach((e,i) => carouselImages.push(formattedData[i].href))
-    }
-});
+let carouselImages = new Array(6).fill(0).map((e,i) => `src/img/carousel/${i}.jpg`)
 
 $(document).ready(() => {
     _changeBackground(0)
