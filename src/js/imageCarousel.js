@@ -1,0 +1,29 @@
+let carouselImages = [];
+
+$.ajax({
+    url: "src/img/carousel",
+    async: false,
+    success: function(data){
+        let formattedData = $(data).find("a:contains(.jpg)").sort(() => (Math.random() > .5) ? 1 : -1)
+
+        new Array(formattedData.length).fill(0).forEach((e,i) => carouselImages.push(formattedData[i].href))
+    }
+});
+
+$(document).ready(() => {
+    _changeBackground(0)
+})
+
+function _changeBackground(curItem) {
+    curItem++
+    $(`#img${curItem%2}`).attr("src",carouselImages[0])
+    carouselImages.push(carouselImages.shift());
+
+    if(curItem % 2 == 0) {
+        $("#img1").fadeOut(2500)
+    } else {
+        $("#img1").fadeIn(2500)
+    }
+
+    setTimeout(() => {_changeBackground(curItem)}, 15000)
+}
