@@ -1,4 +1,4 @@
-let carouselImages = new Array(6).fill(0).map((e,i) => `src/img/carousel/${i}.jpg`)
+let carouselImages = new Array(6).fill(0).map((e,i) => `src/img/carousel/${i}.jpg`).sort(() => (Math.random() > .5) ? 1 : -1)
 
 $(document).ready(() => {
     _changeBackground(0)
