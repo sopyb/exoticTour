@@ -72,6 +72,11 @@ body {
 }
 
 .navItem {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    
     height: auto;
     font-size: 16px;
     font-weight: bold;
@@ -97,11 +102,6 @@ body {
 }
 
 #navbar {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-
     position: absolute;
     display: flex;
     width: 100%;
