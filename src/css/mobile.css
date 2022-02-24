@@ -3,16 +3,28 @@
     #navbar {
         flex-direction: column;
         padding: 0%;
+        bottom: 10vh;
+    }
+
+    #imageCarousel {
+        position:absolute;
+        top: unset !important;
+        bottom: 0 !important;
     }
 
     .centered {
         transform: translate(-50%, -70%);
     }
 
+    .panel {
+        z-index: 0;
+    }
+
     .navItem {
+        background-color: rgba(240, 240, 240, 0.8) !important;
         height: auto;
         width: 100%;
         text-align: center;
-        padding: 2% 0%;
+        padding: 2% 0% !important;
     }
 }
