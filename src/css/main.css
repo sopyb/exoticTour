@@ -61,7 +61,7 @@ body {
 }
 
 .footer {
-    background-color: aqua;
+    background-color: rgb(200, 205, 235);
 }
 
 .logo {
@@ -74,10 +74,8 @@ body {
 .navItem {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
     transition: all 1s ease;
 
-    height: auto;
     font-size: 16px;
     font-weight: bold;
     background-color: rgb(240, 240, 240);
@@ -90,21 +88,18 @@ body {
 #logo-drawonly {
     -webkit-animation: zoomOutLogo 3s linear 0s 1 forwards;
     -moz-animation: zoomOutLogo 3s linear 0s 1 forwards;
-    -o-animation: zoomOutLogo 3s linear 0s 1 forwards;
     animation: zoomOutLogo 3s linear 0s 1 forwards;
 }
 
 #full-logo {
     -webkit-animation: fadeIn 1s linear 3s 1 forwards;
     -moz-animation: fadeIn 1s linear 3s 1 forwards;
-    -o-animation: fadeIn 1s linear 3s 1 forwards;
     animation: fadeIn 1s linear 3s 1 forwards;
 }
 
 #navbar {
     -webkit-transition: all 2s ease;
     -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
     transition: all 2s ease;
 
     position: absolute;
@@ -126,7 +121,6 @@ body {
     appearance: none;
     margin-left: auto;
     margin-right: 5%;
-    padding: 0%;
     height: auto;
 }
 
