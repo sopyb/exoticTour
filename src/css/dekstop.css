@@ -4,6 +4,10 @@
         overflow: hidden;
     }
 
+    #navbar.fixToTop {
+        background-color: rgb(200, 205, 235);
+    }
+
     .fixToTop{
         position: fixed !important;
         top:0px;
@@ -13,4 +17,6 @@
     .navItem:hover {
         transform: scale(1.2)
     }
+
+    
 }
