@@ -7,6 +7,13 @@
     #navbar.fixToTop {
         background-color: rgb(200, 205, 235);
     }
+    
+    #content {
+        width: 60%;
+        min-width:550px;
+        max-width: 1000px;
+        float: left;    
+    }
 
     .fixToTop{
         position: fixed !important;

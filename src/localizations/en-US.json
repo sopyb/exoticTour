@@ -6,6 +6,15 @@
     "home": "Home",
     "aboutUs": "About Us",
     "contact": "Contact",
+    "price": "Price: {0} Ron",
+
+    "home-title1": "Our Offer",
+    "home-subtitle1": "Turkey",
+    "home-paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "home-subtitle2": "Egypt",
+    "home-paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "home-subtitle3": "Tunisia",
+    "home-paragraph3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
 
     "madeBy": "Made by {0}"
 }

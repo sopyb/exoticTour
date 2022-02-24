@@ -6,6 +6,15 @@
     "home": "Acasă",
     "aboutUs": "Despre Noi",
     "contact": "Contact",
+    "price": "Preț: {0} Ron",
+
+    "home-title1": "Oferta Noastră",
+    "home-subtitle1": "Turcia",
+    "home-paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "home-subtitle2": "Egipt",
+    "home-paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "home-subtitle3": "Tunisia",
+    "home-paragraph3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
 
     "madeBy": "Creat de {0}"
 }
