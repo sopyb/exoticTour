@@ -34,9 +34,9 @@
                 <img class="centered logo" id="full-logo" src="src/img/logo.png">
 
                 <div id="navbar">
-                    <a class="navItem" onload="$(this).text(getLocaleString('home'))" onclick="changePage('')">{Home}</a>
-                    <a class="navItem" onload="$(this).text(getLocaleString('aboutUs'))" onclick="changePage('about')">{About Us}</a>
-                    <a class="navItem" onload="$(this).text(getLocaleString('contact'))" onclick="changePage('contact')">{Contact}</a>
+                    <a class="navItem" onload="$(this).html(getLocaleString('home'))" onclick="changePage('')">{Home}</a>
+                    <a class="navItem" onload="$(this).html(getLocaleString('aboutUs'))" onclick="changePage('about')">{About Us}</a>
+                    <a class="navItem" onload="$(this).html(getLocaleString('contact'))" onclick="changePage('contact')">{Contact}</a>
 
                     <select id="languageSelector" class="navItem">
                         <option value="ro-RO">🇷🇴&emsp;Română</option>
@@ -51,7 +51,7 @@
     
             <div class="footer">
                 <div class="content">
-                    <p align="right">Made by <a href="https://sopy.one">Sopy</a></p>
+                    <p align="right" onload='$(this).html(getLocaleString("madeBy", "<a href=\"https:\/\/sopy.one\">Sopy</a>"))'></p>
                 </div>
             </div>
         </div>

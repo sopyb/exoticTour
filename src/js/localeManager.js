@@ -36,6 +36,13 @@ function changeLang(locale) {
     $('*[onload]').trigger('onload');
 }
 
-function getLocaleString(string) {
-    return locales[localStorage.getItem("lang")][string]
+function getLocaleString(string, /*items*/) {
+    let items = Array.prototype.slice.call(arguments, 1),
+        result = locales[localStorage.getItem("lang")][string]
+
+    for (let i = 0; i < items.length; i++) {
+        result = result.replaceAll(`{${i}}`, items[i])
+    }
+
+    return result
 }

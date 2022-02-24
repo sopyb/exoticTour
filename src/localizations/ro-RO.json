@@ -1,9 +1,11 @@
 {
     "@metadata": {
         "author": "Soponar Alexandru",
-        "lastEdit": "02-23-2022"
+        "lastEdit": "02-24-2022"
     },
     "home": "Acasă",
     "aboutUs": "Despre Noi",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "madeBy": "Creat de {0}"
 }
