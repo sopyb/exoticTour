@@ -18,8 +18,8 @@ Object.keys(locales).forEach(key => {
 $(document).ready(() =>  {
     let language = localStorage.getItem("lang");
     if (!language) {
+        localStorage.setItem("lang", "ro-RO");
         if (navigator.language.match(/^en-.+$/)) localStorage.setItem("lang", "en-US");
-        if (navigator.language.match(/^ro-RO$/)) localStorage.setItem("lang", "ro-RO");
         language =  localStorage.getItem("lang");
     }
 
