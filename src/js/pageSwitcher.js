@@ -41,8 +41,8 @@ function checkScroll() {
         content.fadeOut(500, async () => {
             content.load("src/html/" + getPage(location.href.split("#")[1]), () => {
                 content.parent().height(content.outerHeight(true))
+                content.fadeIn(500)
             })
-            content.fadeIn(500)
         })
     }
 }
