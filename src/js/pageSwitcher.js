@@ -2,9 +2,17 @@ $(document).ready(function () {
     var anchor = window.location.hash.substring(1);
     let content = $("#content")
     content.load("src/html/" + getPage(anchor), () => {
-        content.parent().height(content.outerHeight(true))
+        resizeContent(content)
+
+        $("#content img").one("load", () => resizeContent(content))
     })
+
+    $(window).resize(() => resizeContent(content))
 });
+
+function resizeContent(content) {
+    content.parent().height(content.outerHeight(true))
+}
 
 function getPage(anchor) {
     switch (anchor) {
@@ -44,7 +52,7 @@ function checkScroll() {
         let content = $("#content")
         content.fadeOut(500, async () => {
             content.load("src/html/" + getPage(location.href.split("#")[1]), () => {
-                content.parent().height(content.outerHeight(true))
+                resizeContent(content)
                 content.fadeIn(500)
             })
         })

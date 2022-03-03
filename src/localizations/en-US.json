@@ -32,6 +32,18 @@
     "offer-subtitle4-2": "Costa Venetia",
     "offer-description4-2": null,
 
+    "aboutUs-title1" : "Who are we?",
+    "aboutUs-subtitle1-1": "MM Exotic Tour",
+    "aboutUs-description1-1": "We exist to offer vacations in exotic locations at the best prices, while providing our customers with support regarding everything they need to guarantee them truly \"unforgettable experiences\".",
+    "aboutUs-subtitle1-2": "Our team",
+    "aboutUs-description1-2": "We're a dynamic team assembled out of 5 young, talented and passionate employees prepared to take on any challenge that may come in our way in our path to success.<br><br>Meet the team:",
+
+    "aboutUs-ceo": "{0} - CEO",
+    "aboutUs-secretary": "{0} - Secretary/HR Manager",
+    "aboutUs-marketing": "{0} - Marketing",
+    "aboutUs-sales": "{0} - Salesman",
+    "aboutUs-accounting": "{0} - Finances and Accounting",
+
     "contact-title": "Where can you find us?",
     "contact-director": "Director: {0}",
     "contact-email": "Email: {0}",
