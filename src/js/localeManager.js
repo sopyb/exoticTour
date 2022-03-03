@@ -38,7 +38,7 @@ function changeLang(locale) {
 
 function getLocaleString(string, /*items*/) {
     let items = Array.prototype.slice.call(arguments, 1),
-        result = locales[localStorage.getItem("lang")][string]
+        result = locales[localStorage.getItem("lang")][string] || locales["en-US"][string] || ""
 
     for (let i = 0; i < items.length; i++) {
         result = result.replaceAll(`{${i}}`, items[i])
