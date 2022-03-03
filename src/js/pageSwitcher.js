@@ -20,15 +20,18 @@ function getPage(anchor) {
 }
 
 async function changePage(page) {
-    var url = location.href.split("#")[0];
-    document.location = url + "#" + (page || "home");
-
-    window.addEventListener('scroll', checkScroll);
-    disableScroll()
     window.scrollTo({
         top: defaultNavbarOffset,
         behavior: "smooth"
     })
+
+    if(!location.href.split("#")[1] && !page || location.href.split("#")[1] == (page || "home")) return;
+
+    var url = location.href.split("#")[0];
+    document.location = url + "#" + (page || "home");
+
+    disableScroll()
+    window.addEventListener('scroll', checkScroll);
     checkScroll()
 }
 
