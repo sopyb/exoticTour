@@ -1,15 +1,23 @@
 <h1 onload="$(this).html(getLocaleString('home-title1'))">{Our Offer}</h1>
 
-<h2 onload="$(this).html(getLocaleString('home-subtitle1'))">{Turkey}</h2>
-    <p onload="$(this).html(getLocaleString('home-paragraph1'))">{Description}</p>
-    <p class="price" onload="$(this).html(getLocaleString('price'))">{Price}</p>
+<h2 onload="$(this).html(`${getLocaleString('destination')} - ${getLocaleString('offer-subtitle1-2')}`)">{Tunisia}</h2>
+    <p onload="$(this).html(getLocaleString('offer-description-vacations', 7, 'Junior Suite SV', 'Ibelostar Diar El Andalous', 5, getLocaleString('allInclusive'), getLocaleString('bucharest') + ' (OTP)', 'Enfidha-Hammamet (NBE)'))">{Description}</p>
+    <p class="price" onload="$(this).html(getLocaleString('price', 1100))">{Price}</p>
 
-<h2 onload="$(this).html(getLocaleString('home-subtitle2'))">{Egypt}</h2>
-    <p onload="$(this).html(getLocaleString('home-paragraph2'))">{Description}</p>
-    <p class="price" onload="$(this).html(getLocaleString('price'))">{Price}</p>
+<h2 onload="$(this).html(`${getLocaleString('circuit')} - ${getLocaleString('offer-subtitle2-1')}`)">{Maramures}</h2>
+    <p onload="$(this).html(getLocaleString('offer-description2-1'))">{Description}</p>
+    <p class="price" onload="$(this).html(getLocaleString('price', 200))">{Price}</p>
 
-<h2 onload="$(this).html(getLocaleString('home-subtitle3'))">{Tunisia}</h2>
-    <p onload="$(this).html(getLocaleString('home-paragraph3'))">{Description}</p>
-    <p class="price" onload="$(this).html(getLocaleString('price'))">{Price}</p>
 
+<h2 onload="$(this).html(`${getLocaleString('cityBreak')} - ${getLocaleString('offer-subtitle3-1')}`)">{Larnaca}</h2>
+    <p onload="$(this).html(getLocaleString('offer-description-cityBreak', getLocaleString('offer-subtitle3-1'), 'Radisson Blu Hotel', getLocaleString('breakfast&diner')))">{Description}</p>
+    <p class="price" onload="$(this).html(getLocaleString('price', 800))">{Price}</p>
+
+<h2 onload="$(this).html(`${getLocaleString('cruise')} - ${getLocaleString('offer-subtitle4-2')}`)">{Costa Venetia}</h2>
+    <p onload="$(this).html(getLocaleString('offer-description-cruise', getLocaleString('mediteraneeanSea'), 14))">{Description}</p>
+    <p class="price" onload="$(this).html(getLocaleString('price', 800))">{Price}</p>
+
+<h2 onload="$(this).html(`${getLocaleString('destination')} - ${getLocaleString('offer-subtitle1-1')}`)">{Tunisia}</h2>
+    <p onload="$(this).html(getLocaleString('offer-description-vacations', 14, 'Beach Front Villa', 'Amatique Bay Hotel', 5, getLocaleString('allInclusive'), getLocaleString('bucharest') + ' (OTP)', 'Puerto Barrios (PBR)'))">{Description}</p>
+    <p class="price" onload="$(this).html(getLocaleString('price', 3500))">{Price}</p>
 <script>$('*[onload]').trigger('onload');</script>
