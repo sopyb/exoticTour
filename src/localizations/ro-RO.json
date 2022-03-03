@@ -8,14 +8,58 @@
     "aboutUs": "Despre Noi",
     "contact": "Contact",
     "price": "Preț: {0}€/persoana",
+    "breakfast&diner": "breakfast and dinner",
+    "allInclusive": "All-Inclusive",
+    "northernEurope": "Europa de nord",
+    "mediteraneeanSea": "marea Mediteraneană",
+    "bucharest": "București",
+    "destination": "Sejur",
+    "circuit": "Circuit",
+    "cityBreak": "City Break",
+    "cruise": "Croazieră",
 
-    "home-title1": "Oferta Noastră",
-    "home-subtitle1": "Turcia",
-    "home-paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "home-subtitle2": "Egipt",
-    "home-paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "home-subtitle3": "Tunisia",
-    "home-paragraph3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "home-title1": "Oferte care te-ar putea interesa:",
+
+    "offer-title1": "Sejururi",
+    "offer-subtitle1-1": "Guatemala",
+    "offer-subtitle1-2": "Tunisia",
+    "offer-subtitle1-3": "Zanzibar",
+    "offer-description-vacations": "{0} nopți de vacanță - {1}<br>{2} (hotel de {3} stele), {4}.<br>Zbor charter dus întors: {5} - {6}.<br>Taxe aeroport, transfer, plați incluse in prețul ofertei.",
+
+    "offer-title2": "Circuite",
+    "offer-subtitle2-1": "Maramureș",
+    "offer-description2-1": "Vizitează cele mai cunoscute atracți turistice ale județului Maramureș în decursul a 5 zile.<br>Transport cu autocarul, pornirea și sosirea în Baia Mare.<br>Taxe intrări incluse în prețul biletului.",
+
+    "offer-title3": "City break-uri",
+    "offer-subtitle3-1": "Larnaca, Ciprus",
+    "offer-subtitle3-2": "Tallinn, Estonia",
+    "offer-subtitle3-3": "Marrakech, Maroc",
+    "offer-description-cityBreak": "Ia o pauză de 4 zile (3 nopți) în {0} la {1} (hotel de 5 stele) cu {2} incluse.",
+
+    "offer-title4": "Croaziere",
+    "offer-subtitle4-1": "M.S.C. Magnifica",
+    "offer-subtitle4-2": "Costa Venetia",
+    "offer-description-cruise": "Pleace in croaziera prin {0} pentru {1} nopți",
+
+    "aboutUs-title1" : "Cine suntem noi?",
+    "aboutUs-subtitle1-1": "MM Exotic Tour",
+    "aboutUs-description1-1": "Am înființat firma pentru a oferi vacanțe în diverse locații exotice la cele mai bine prețuri, totodată oferind clienților nostri suport cu referință la tot legat de vacanțe pentru a garanta \"experiențe de neuitat\".",
+    "aboutUs-subtitle1-2": "Echipa noastră",
+    "aboutUs-description1-2": "Suntem o echipă dinamică formată din 5 tineri talentați si pasionați pregătiți să ne confrunta cu orice provocare care ne poate apărea în cale în calea către succes.<br><br>Întânește-ne echipa:",
+
+    "aboutUs-ceo": "{0} - Director General",
+    "aboutUs-secretary": "{0} - Secretar/Resurse Umane",
+    "aboutUs-marketing": "{0} - Marketing",
+    "aboutUs-sales": "{0} - Vânzări",
+    "aboutUs-accounting": "{0} - Contabilitate",
+
+    "contact-title": "Unde ne găsiți?",
+    "contact-director": "Director: {0}",
+    "contact-email": "Email: {0}",
+    "contact-phone": "Telefon: {0}",
+    "contact-fax": "Fax: {0}",
+    "contact-address": "Adresă: {0}",
+
 
     "madeBy": "Creat de {0}"
 }
