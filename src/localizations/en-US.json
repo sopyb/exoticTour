@@ -32,5 +32,12 @@
     "offer-subtitle4-2": "Costa Venetia",
     "offer-description4-2": null,
 
+    "contact-title": "Where can you find us?",
+    "contact-director": "Director: {0}",
+    "contact-email": "Email: {0}",
+    "contact-phone": "Phone: {0}",
+    "contact-fax": "Fax: {0}",
+    "contact-address": "Address: {0}",
+
     "madeBy": "Made by {0}"
 }
