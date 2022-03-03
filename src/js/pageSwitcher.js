@@ -12,9 +12,10 @@ function getPage(anchor) {
             return "aboutUs.html"
         case "contact":
             return "contact.html"
+        case "ourOffer":
+            return "ourOffer.html"
         default:
             return "home.html"
-
     }
 }
 

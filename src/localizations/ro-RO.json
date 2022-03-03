@@ -1,12 +1,13 @@
 {
     "@metadata": {
         "author": "Soponar Alexandru",
-        "lastEdit": "02-24-2022"
+        "lastEdit": "03-03-2022"
     },
     "home": "Acasă",
+    "ourOffer": "Oferta Noastră",
     "aboutUs": "Despre Noi",
     "contact": "Contact",
-    "price": "Preț: {0} Ron",
+    "price": "Preț: {0}€/persoana",
 
     "home-title1": "Oferta Noastră",
     "home-subtitle1": "Turcia",

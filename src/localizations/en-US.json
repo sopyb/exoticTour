@@ -1,12 +1,13 @@
 {
     "@metadata": {
         "author": "Soponar Alexandru",
-        "lastEdit": "02-24-2022"
+        "lastEdit": "03-03-2022"
     },
     "home": "Home",
+    "ourOffer": "Our Offer",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "price": "Price: {0} Ron",
+    "price": "Price: {0}€/person",
 
     "home-title1": "Our Offer",
     "home-subtitle1": "Turkey",
@@ -15,6 +16,21 @@
     "home-paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     "home-subtitle3": "Tunisia",
     "home-paragraph3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+
+
+    "offer-title1": "Destinations",
+    "offer-subtitle1-1": "Guatemala",
+    "offer-subtitle1-2": "Tunisia",
+    "offer-subtitle1-3": "Zanzibar",
+    "offer-title2": "Circuits",
+    "offer-subtitle2-1": "Maramureș",
+    "offer-title3": "City breaks",
+    "offer-subtitle3-1": "Larnaca, Cyprus",
+    "offer-subtitle3-2": "Tallinn, Estonia",
+    "offer-subtitle3-3": "Marrakech, Maroc",
+    "offer-title4": "Cruises",
+    "offer-subtitle4-1": "M.S.C. Magnifica",
+    "offer-subtitle4-2": "Costa Venetia",
 
     "madeBy": "Made by {0}"
 }
