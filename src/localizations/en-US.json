@@ -9,28 +9,28 @@
     "contact": "Contact",
     "price": "Price: {0}€/person",
 
-    "home-title1": "Our Offer",
-    "home-subtitle1": "Turkey",
-    "home-paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "home-subtitle2": "Egypt",
-    "home-paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "home-subtitle3": "Tunisia",
-    "home-paragraph3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-
-
     "offer-title1": "Destinations",
     "offer-subtitle1-1": "Guatemala",
+    "offer-description1-1": null,
     "offer-subtitle1-2": "Tunisia",
+    "offer-description1-2": null,
     "offer-subtitle1-3": "Zanzibar",
+    "offer-description1-3": null,
     "offer-title2": "Circuits",
     "offer-subtitle2-1": "Maramureș",
+    "offer-description2-1": null,
     "offer-title3": "City breaks",
     "offer-subtitle3-1": "Larnaca, Cyprus",
+    "offer-description3-1": null,
     "offer-subtitle3-2": "Tallinn, Estonia",
-    "offer-subtitle3-3": "Marrakech, Maroc",
+    "offer-description3-2": null,
+    "offer-subtitle3-3": "Marrakech, Morocco",
+    "offer-description3-3": null,
     "offer-title4": "Cruises",
     "offer-subtitle4-1": "M.S.C. Magnifica",
+    "offer-description4-1": null,
     "offer-subtitle4-2": "Costa Venetia",
+    "offer-description4-2": null,
 
     "madeBy": "Made by {0}"
 }
