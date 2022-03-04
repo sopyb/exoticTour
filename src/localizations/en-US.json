@@ -1,7 +1,7 @@
 {
     "@metadata": {
         "author": "Soponar Alexandru",
-        "lastEdit": "03-03-2022"
+        "lastEdit": "03-04-2022"
     },
     "home": "Home",
     "ourOffer": "Our Offer",
@@ -54,7 +54,7 @@
     "aboutUs-accounting": "{0} - Finances and Accounting",
 
     "contact-title": "Where can you find us?",
-    "contact-director": "Director: {0}",
+    "contact-director": "CEO: {0}",
     "contact-email": "Email: {0}",
     "contact-phone": "Phone: {0}",
     "contact-fax": "Fax: {0}",

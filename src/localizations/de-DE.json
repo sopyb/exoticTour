@@ -1,0 +1,64 @@
+{
+    "@metadata": {
+        "author": "Mia",
+        "lastEdit": "03-04-2022"
+    },
+    "home": "Zuhause",
+    "ourOffer": "Unser Angebot",
+    "aboutUs": "Über Uns",
+    "contact": "Kontakt",
+    "price": "Preis: {0}€/Person",
+    "breakfast&diner": "Frühstück und Abendbrot",
+    "allInclusive": "Alles Inklsuive",
+    "northernEurope": "Nordeuropa",
+    "mediteraneeanSea": "Mittelmeer",
+    "bucharest": "Bucharest",
+    "destination": "Herberge",
+    "circuit": "Schaltkreis",
+    "cityBreak": "Städterundfahrt",
+    "cruise": "Kreuzfahrt",
+
+    "home-title1": "Angebote die sie mögen könnten:",
+
+    "offer-title1": "Reiseziele",
+    "offer-subtitle1-1": "Guatemala",
+    "offer-subtitle1-2": "Tunesien ",
+    "offer-subtitle1-3": "Sansibar",
+    "offer-description-vacations": "{0} Übernachtungen - {1}<br>{2} ({3} Sterne Hotel), {4}.<br>Rundflug: {5} - {6}.<br>Transferierung, Flughafen und andre steuern sind im Preis inbegriffen.",
+
+    "offer-title2": "Schaltkreise",
+    "offer-subtitle2-1": "Maramures ",
+    "offer-description2-1": "Besuchen sie die meist besuchten Attraktionen von Maramures, über 5 tage hinweg.<br>Transport bei Bus, Abfahrt und Ankunftspunkt ist Baia Mare.<br>Eintrittsticket ist im Preis inbegriffen.",
+
+    "offer-title3": "Städterundfahrt",
+    "offer-subtitle3-1": "Larnaca, Cyprus",
+    "offer-subtitle3-2": "Tallinn, Estonia",
+    "offer-subtitle3-3": "Marrakech, Morocco",
+    "offer-description-cityBreak": "Gönnen sie sich eine Pause für 4 Tage (3 Nächte) in der Stadt {0} in {1} (5 Sterne Hotel) welches {2} einschließt.",
+
+    "offer-title4": "Kreuzfahrt",
+    "offer-subtitle4-1": "M.S.C. Magnifica",
+    "offer-subtitle4-2": "Costa Venetia",
+    "offer-description-cruise": "Erleben sie eine spannende Schiffsreise mit der {0} für {1} Nacht.",
+
+    "aboutUs-title1" : "Wer wir sind?",
+    "aboutUs-subtitle1-1": "MM Exotic Tour",
+    "aboutUs-description1-1": "Wir haben unser Unternehmen gegründet um exotische Ausflüge an die entlegensten Orte zum besten preis zu verwirklichen, wärend wir nebenbei unseren Kunden den besten Kundenservice anbieten den es gibt und wir für alles garantieren. \"Unvergessbares Erlebnis\".",
+    "aboutUs-subtitle1-2": "Unser Team",
+    "aboutUs-description1-2": "Wir sind eine dynamisches junges team das auch aus 5 Leuten zusammen setzt, bereit jede challenge anzunehmen die uns in unseren weg zu Erfolg kommt..<br><br>Treffe das Team:",
+
+    "aboutUs-ceo": "{0} - CEO",
+    "aboutUs-secretary": "{0} - Sekretärin/Personalleiterin ",
+    "aboutUs-marketing": "{0} - Marketing",
+    "aboutUs-sales": "{0} - Verkäufer",
+    "aboutUs-accounting": "{0} - Finanzen und Rechnungswesen ",
+
+    "contact-title": "Wo können sie uns finden?",
+    "contact-director": "CEO: {0}",
+    "contact-email": "Email: {0}",
+    "contact-phone": "Telefon: {0}",
+    "contact-fax": "Fax: {0}",
+    "contact-address": "Adresse: {0}",
+
+    "madeBy": "Gemacht von {0}"
+}
