@@ -1,5 +1,11 @@
 @media only screen and (max-width: 600px), 
     (hover: none) {
+
+    #content { 
+        margin: 0% !important;
+        padding: 5% !important;
+    }
+
     #navbar {
         flex-direction: column;
         padding: 0%;
