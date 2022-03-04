@@ -1,7 +1,7 @@
 let locales = {
     "ro-RO": {},
-    "en-US": {},
     "de-DE": {},
+    "en-US": {},
     "fr-FR": {}
 }
 
