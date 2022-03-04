@@ -1,0 +1,64 @@
+{
+    "@metadata": {
+        "author": "Telliez Valentin",
+        "lastEdit": "03-04-2022"
+    },
+    "home": "Accueil",
+    "ourOffer": "Nos offres",
+    "aboutUs": "A propos",
+    "contact": "Contact",
+    "price": "Prix: {0}€/persone",
+    "breakfast&diner": "petit-déjeuner et diner",
+    "allInclusive": "All Inclusive",
+    "northernEurope": "Europe du Nord",
+    "mediteraneeanSea": "mer Méditerranée",
+    "bucharest": "Bucharest",
+    "destination": "Destination",
+    "circuit": "Circuit",
+    "cityBreak": "Séjour en ville",
+    "cruise": "Croisière",
+
+    "home-title1": "Offres qui pouraient vous intéresser:",
+
+    "offer-title1": "Destinations",
+    "offer-subtitle1-1": "Guatemala",
+    "offer-subtitle1-2": "Tunisie",
+    "offer-subtitle1-3": "Zanzibar",
+    "offer-description-vacations": "{0} Nuits de vacances - {1}<br>{2} (Hotel {3} étoiles), {4}.<br>Vol charter aller-retour: {5} - {6}.<br>Transfert, aéroport et autres taxes comprissent dans le prix.",
+
+    "offer-title2": "Circuits",
+    "offer-subtitle2-1": "Maramureș",
+    "offer-description2-1": "Visiter les attractions touristiques les plus renomées du comté de Maramure au travers de 5 jours.<br>Transport par calèche, Départ et arrivé a Baia Mare.<br>Tickets d'entrée compris dans le prix.",
+
+    "offer-title3": "Escapades citadines",
+    "offer-subtitle3-1": "Larnaca, Chypre",
+    "offer-subtitle3-2": "Tallinn, Estonie",
+    "offer-subtitle3-3": "Marrakech, Maroc",
+    "offer-description-cityBreak": "Prenez une pause de 4 jours (3 nuits) dans la ville de {0} au {1} (hotel 5 étoiles) avec {2} inclus.",
+
+    "offer-title4": "Croisiéres",
+    "offer-subtitle4-1": "M.S.C. Magnifica",
+    "offer-subtitle4-2": "Costa Venetia",
+    "offer-description-cruise": "Naviguer sur le {0} pour {1} nuits",
+
+    "aboutUs-title1" : "Qui sommes nous ?",
+    "aboutUs-subtitle1-1": "MM Exotic Tour",
+    "aboutUs-description1-1": "Nous avons trouvé l'entreprise pour offrir des vacances dans de nombreux lieux exotiques au meilleur prix, tout en prodiguant nos clients avec tout ce dont ils ont besoins pour leurs garantir \"des expériences vraiment inoubliables\".",
+    "aboutUs-subtitle1-2": "Notre équipe",
+    "aboutUs-description1-2": "Nous sommes une équipe dynamique composée de 5 jeunes, talentueux et passionés employés prets a faire face a tout obstacle qui se presenterait dans notre quête de réussite.<br><br>L'équipe:",
+
+    "aboutUs-ceo": "{0} - PDG",
+    "aboutUs-secretary": "{0} - Secretaire/Manager RH",
+    "aboutUs-marketing": "{0} - Marketing",
+    "aboutUs-sales": "{0} - Vendeurs",
+    "aboutUs-accounting": "{0} - Finances et Comptabilité",
+
+    "contact-title": "Ou nous trouver",
+    "contact-director": "PDG: {0}",
+    "contact-email": "Email: {0}",
+    "contact-phone": "Téléphone: {0}",
+    "contact-fax": "Fax: {0}",
+    "contact-address": "Addresse: {0}",
+
+    "madeBy": "Fait par {0}"
+}

@@ -1,7 +1,8 @@
 let locales = {
     "ro-RO": {},
     "en-US": {},
-    "de-DE": {}
+    "de-DE": {},
+    "fr-FR": {}
 }
 
 Object.keys(locales).forEach(key => {
@@ -22,6 +23,7 @@ $(document).ready(() =>  {
         localStorage.setItem("lang", "ro-RO");
         if (navigator.language.match(/^en(.+)?$/)) localStorage.setItem("lang", "en-US");
         if (navigator.language.match(/^de(.+)?$/)) localStorage.setItem("lang", "de-DE");
+        if (navigator.language.match(/^fr(.+)?$/)) localStorage.setItem("lang", "fr-FR");
         language =  localStorage.getItem("lang");
     }
 
