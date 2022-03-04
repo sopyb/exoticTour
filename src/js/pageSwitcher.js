@@ -45,7 +45,7 @@ async function changePage(page) {
 
 function checkScroll() {
 
-    if (window.scrollY <= defaultNavbarOffset) {
+    if (window.scrollY <= defaultNavbarOffset+50) {
         enableScroll()
         window.removeEventListener('scroll', checkScroll);
 
